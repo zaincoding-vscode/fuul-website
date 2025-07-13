@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+ <div class="navbar">
+        <div class="logo">
+            <img src="nav-logo.png" width="125px">
+        </div>
+        <nav>
+             <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="product.html">Products</a></li>
+              
+                    <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+       <a href="cart.html"><img src="nav-logo2.png" width="30px" height="30px"></a> 
+        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+        
+    </div>
+   </div>
+
+
+   <div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-1.jpeg">
+                    <div>
+                        <p>Red Printed T-Shirt</p>
+                        <small>Price:$50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-2.jpeg">
+                    <div>
+                        <p>Blue Printed T-Shirt</p>
+                        <small>Price:$50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-3.jpeg">
+                    <div>
+                        <p>Brown Pants</p>
+                        <small>Price:$30.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$30.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-4.jpeg">
+                    <div>
+                        <p>Black Stylish Shoes</p>
+                        <small>Price:$80.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$80.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-5.jpeg">
+                    <div>
+                        <p>Black Printed T-Shirt</p>
+                        <small>Price:$50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-6.jpeg">
+                    <div>
+                        <p>Black Pants</p>
+                        <small>Price:$30.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$30.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-7.jpeg">
+                    <div>
+                        <p>Black Shoes</p>
+                        <small>Price:$23.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$23.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-8.jpeg">
+                    <div>
+                        <p>Gray Shoes</p>
+                        <small>Price:$20.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$20.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-9.jpeg">
+                    <div>
+                        <p>Gray Stylish Shoes</p>
+                        <small>Price:$90.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$90.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-10.jpeg">
+                    <div>
+                        <p>Black Socks</p>
+                        <small>Price:$10.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$10.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-11.jpeg">
+                    <div>
+                        <p>Black Luxury Watch</p>
+                        <small>Price:$500.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$500.00</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="product-12.jpeg">
+                    <div>
+                        <p> Black Watch</p>
+                        <small>Price:$100.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$100.00</td>
+        </tr>
+    </table>
+
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>$200.00</td>
+        </tr>
+         <tr>
+            <td>tax</td>
+            <td>$30.00</td>
+        </tr>
+         <tr>
+            <td>Total</td>
+            <td>$230.00</td>
+        </tr>
+    </table>
+</div>
+
+   </div>
+
+
+        <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and Ios mobile phones</p>
+                <div class="app-logo">
+                    <img src="app-store.jpeg">
+                    <img src="play-store.jpeg">
+                </div>
+            </div>
+              <div class="footer-col-2">
+                <img src="footer-logo.png" alt="">
+                <p>Our Purpose Is To Sustainably Make the Pleassure and Benifits of Sports Accesible for the Many.</p>
+            </div>
+              <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affliate</li>
+                </ul>
+            </div>
+              <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - Zayyan Coding</p>
+    
+</div>
+</body>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else{
+        MenuItems.style.maxHeight = "0px";
+    }
+    }
+</script>
+</html>
